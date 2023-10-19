@@ -116,7 +116,7 @@ const About = () => {
           <div>
             {aboutData.map((item, index) => {
               return (
-                <div key={index} className={`cursor-pointer capitalize`}>
+                <div key={index} className={`cursor-pointer capitalize xl:text-lg relative after:w-8  after:h`}>
                   {item.title}
                 </div>
               );
